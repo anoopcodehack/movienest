@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row {
+  margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row-title {
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row-posters {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 180px;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  opacity: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.play-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px;
+}
+
+.info-btn {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 6px;
+}
+
+.fav-btn {
+  margin-top: 8px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+.row {
+  margin: 20px;
+}
+
+.row-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 180px;
+  background: #1c1c1c;
+  padding: 8px;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card img {
+  width: 100%;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
 }
+
+
+
