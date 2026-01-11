@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+🎬 Movinest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Movinest is a simple React-based movie website that I built to practice real frontend development — from designing the UI to deploying a working project online.
 
-## Available Scripts
+🔗 Live site: https://movienest-git-master-anoop-as-projects.vercel.app/
 
-In the project directory, you can run:
+💻 Source code: https://github.com/anoopcodehack/movienest
 
-### `npm start`
+About the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I created this project to understand how a real React project is structured and how ideas turn into an actual, usable website.
+The focus was mainly on component structure, layout, and responsiveness, rather than just making something that “looks good”.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project also helped me get comfortable with deploying a React app and preparing the codebase for future improvements.
 
-### `npm test`
+What’s inside
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Built using React (Create React App)
 
-### `npm run build`
+Clean and reusable components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive layout for different screen sizes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Simple and readable folder structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deployed and publicly accessible
 
-### `npm run eject`
+Tech used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+JavaScript (ES6+)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+HTML & CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Netlify (for deployment)
 
-## Learn More
+Project structure
+src/
+├── components/
+├── pages/
+├── assets/
+├── App.js
+└── index.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Running the project locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the repository:
 
-### Code Splitting
+git clone https://github.com/anoopcodehack/movienest.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start the app:
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+The app will run on http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+What I want to improve next
 
-### `npm run build` fails to minify
+Add real movie data using an API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Improve UI and animations
+
+Optimize performance and code quality
+
+Author
+
+Anoop A
