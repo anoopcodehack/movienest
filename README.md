@@ -37,11 +37,11 @@ Netlify (for deployment)
 
 📂Project structure
 src/
-├── components/
-├── pages/
-├── assets/
-├── App.js
-└── index.js
+- components/
+- pages/
+- assets/
+- App.js
+- index.js
 
 Running the project locally
 
