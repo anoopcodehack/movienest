@@ -9,9 +9,9 @@ const fetchTMDB = async (url) => {
 
 export const getTrending = () =>
   fetchTMDB(`${BASE_URL}/trending/movie/week?api_key=${API_KEY}`);
-
-export const getPopular = () =>
-  fetchTMDB(`${BASE_URL}/movie/popular?api_key=${API_KEY}`);
+export const getPopular = (page = 1) =>
+  fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}&page=${page}`)
+    .then(res => res.json());
 
 export const getTopRated = () =>
   fetchTMDB(`${BASE_URL}/movie/top_rated?api_key=${API_KEY}`);

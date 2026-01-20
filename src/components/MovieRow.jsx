@@ -1,13 +1,17 @@
-
+import { memo } from "react";
 import MovieCard from "./MovieCard";
 
-function MovieRow({ title, movies, favorites, onFavToggle }) {
+function MovieRow({ title, movies = [], favorites = [], onFavToggle }) {
+  if (!movies.length) return null;
+
   return (
-    <div className="row">
-      <h2>{title}</h2>
+    <section className="row">
+      <h2 className="row-title">{title}</h2>
+
       <div className="row-scroll">
         {movies.map((movie) => {
-          const isFavorite = favorites.some((f) => f.id === movie.id);
+          const isFavorite = favorites.some(f => f.id === movie.id);
+
           return (
             <MovieCard
               key={movie.id}
@@ -18,11 +22,12 @@ function MovieRow({ title, movies, favorites, onFavToggle }) {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 
-export default MovieRow;
+// Prevent useless re-renders when props don't change
+export default memo(MovieRow);
 
 
 
