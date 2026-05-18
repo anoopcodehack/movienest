@@ -1,75 +1,75 @@
-🎬 Movinest
+# 🎬 Movinest
 
-Movinest is a simple React-based movie website that I built to practice real frontend development — from designing the UI to deploying a working project online.
+> A React-based movie website built to practice real-world frontend development —
+> from designing the UI to deploying a live project online.
 
-🔗 Live site: https://movienest-git-master-anoop-as-projects.vercel.app/
+🔗 **Live Site:** [movienest.vercel.app](https://movienest-git-master-anoop-as-projects.vercel.app/) &nbsp;|&nbsp;
+💻 **Source Code:** [github.com/anoopcodehack/movienest](https://github.com/anoopcodehack/movienest)
 
-💻 Source code: https://github.com/anoopcodehack/movienest
+---
 
-🚀About the project
+## 🙋 About the Project
 
-I created this project to understand how a real React project is structured and how ideas turn into an actual, usable website.
-The focus was mainly on component structure, layout, and responsiveness, rather than just making something that “looks good”.
+I built Movinest to understand how a real React project comes together —
+from structuring components to shipping a live, usable website.
 
-This project also helped me get comfortable with deploying a React app and preparing the codebase for future improvements.
+The focus wasn't just aesthetics. I wanted to get hands-on with:
+- How a React project is **structured and organized**
+- Building **reusable, clean components**
+- Making layouts **responsive** across screen sizes
+- **Deploying** a React app to production
 
-🛠️What’s inside
+This project also set the foundation for future improvements like API integration and performance optimization.
 
-Built using React (Create React App)
+---
 
-Clean and reusable components
+## 🛠️ Tech Stack
 
-Responsive layout for different screen sizes
+| Technology | Usage |
+|---|---|
+| React (CRA) | UI framework |
+| JavaScript ES6+ | App logic |
+| HTML & CSS | Markup & styling |
+| Vercel | Deployment |
 
-Simple and readable folder structure
+---
 
-Deployed and publicly accessible
-
-Tech used
-
-React
-
-JavaScript (ES6+)
-
-HTML & CSS
-
-Netlify (for deployment)
-
-📂Project structure
+## 📂 Project Structure
 src/
-- components/
-- pages/
-- assets/
-- App.js
-- index.js
+├── components/    # Reusable UI components
+├── pages/         # Page-level views
+├── assets/        # Images and static files
+├── App.js         # Root component
+└── index.js       # Entry point
+---
 
-Running the project locally
+## 🚀 Run Locally
 
-⚙️Clone the repository:
-
+```bash
+# 1. Clone the repository
 git clone https://github.com/anoopcodehack/movienest.git
 
-
-Install dependencies:
-
+# 2. Install dependencies
 npm install
 
-
-🧪Start the app:
-
+# 3. Start the app
 npm start
+```
 
+> App runs at `http://localhost:3000`
 
-👉The app will run on http://localhost:3000
+---
 
-What I want to improve next
+## 🔮 What's Next
 
-Add real movie data using an API
+- [ ] Fetch real movie data via a public API (TMDB)
+- [ ] Improve UI with smoother animations
+- [ ] Optimize performance and clean up code
+- [ ] Add search and filter functionality
 
-Improve UI and animations
+---
 
-Optimize performance and code quality
+## 👤 Author
 
-Author
-
-Anoop A
+**Anoop A**
+[GitHub](https://github.com/anoopcodehack)
